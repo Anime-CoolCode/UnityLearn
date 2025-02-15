@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Move");
+        transform.Translate(0,0,1);
     }
+
+    
 }
